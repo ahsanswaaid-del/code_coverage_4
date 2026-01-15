@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: code_coverage_4.code_coverage_4.Func1Test
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.060 s -- in code_coverage_4.code_coverage_4.Func1Test
