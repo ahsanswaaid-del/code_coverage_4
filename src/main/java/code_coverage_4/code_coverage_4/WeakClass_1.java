@@ -2,13 +2,10 @@ package code_coverage_4.code_coverage_4;
 
 public class WeakClass_1 {
     public static int weakMethod(int x, int y) {
-        boolean A = (x > 0);
-        boolean B = (y > 0);
-
-        if (A | B) {
-            return 1;
-        } else {
-            return 10 / 0; // תקלה
+        int d = 0;
+        if ((x > 0) | (y > 0)) {   
+            d = 10;
         }
+        return 10 / d;            // else -> 10/0 -> ArithmeticException
     }
 }
